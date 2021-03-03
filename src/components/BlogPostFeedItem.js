@@ -9,6 +9,7 @@ import BlogPostAuthor from './BlogPostAuthor';
 export default class BlogPostFeedItem extends React.Component {
     render() {
         let post = _.get(this.props, 'post_page', null);
+        console.log(post);
         let blog_feed_section = _.get(this.props, 'blog_feed_section', null);
         let columns = _.get(blog_feed_section, 'blog_feed_cols', null) || 'three';
         let is_card = false;
