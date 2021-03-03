@@ -4,6 +4,7 @@ import _ from 'lodash';
 import {Link, withPrefix} from '../utils';
 
 export default class BlogPostCategories extends React.Component {
+        test
     render() {
         let categories = _.get(this.props, 'categories', null);
         let container_class = _.get(this.props, 'container_class', null);
